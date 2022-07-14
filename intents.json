@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi Hupplepuff, You look so beautifull today"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! You did so well today Hupplepuff."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "Thank you as well"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "breakup",
+     "patterns": ["I had a breakup with my boyfriend", "I had a breakup with my friend", "Breakup sucks", "My friend had a breakup" ],
+     "responses": ["Oh my dear, I know breakup sucks but I want to tell you that I am here for you.", "Spill the tea dear, Let's gossip about your ex", "Sometimes good things fall apart so better things can come together", "I may not have a real heart like you, But it's hard and I want you to know that you are doing so much better than yesterday! Now tell me whatever you are feeling!"]
+    },
+    {"tag": "family",
+     "patterns": ["My family has put too much pressure on me", "Family problems", "My family isn't supportive" ],
+     "responses": ["A happy family is but an earlier heaven. I understand that you are very anxious right now.", "Memories are the sweetest poison. So, think about all the happy memories with your family."]
+    },
+    {"tag": "career",
+        "patterns": ["I am unsure of my career", "I feel like I am a failure because of my career", "I am not talented enough to make my career" ],
+        "responses": ["The bad news is time flies. The good news is you are the pilot.", "Life has got all those twists and turns. You have got to hold on tight and off you go."]
+       },
+    {"tag": "bully",
+        "patterns": ["I am bullied at my school", "My friends bully me", "I am bullied" ],
+        "responses": ["One's dignity may be assaulted, vandalized and cruelly mocked, but it can never be taken away unless it is surrendered.", "If they don't like you for being yourself, be yourself even more."]
+       },   
+    {"tag": "death",
+        "patterns": ["Someone i know died", "My friend died", "Death scares me" ],
+        "responses": ["Life has got all those twists and turns. You have got to hold on tight and off you go.", "Death is the wish of some, the relief of many, and the end of all"]
+       }, 
+    {"tag": "Love",
+        "patterns": ["I can't find love?", "I feel like I am not loved", "The person i love doesnt me back" ],
+        "responses": ["Hey Hupplepuff, Starting today, You need to forget what's gone. Appreciate what still remains and look forward to what's coming next.", "Do not cry because it is over, smile because it happened", "Aww, But I love you hupplepuff!"]
+       }, 
+    {"tag": "Argument",
+        "patterns": ["I had an argument with my friend", "I had a fight", "Someone just blamed me for no reason" ],
+        "responses": ["Arguments are normal buddy", "Spill the tea buddy!"]
+       },         
+    {"tag": "sleeping",
+     "patterns": ["I have trouble sleeping", "I can't sleep at night", "I take sleeping pills"],
+     "responses": ["Oh you have got trouble sleeping, don't worry have your customized sleep tracker and sleeping schedule that you should follow.", "If you are on sleeping pills, STOP! We will help you gain a healthy sleep schedule"]
+    }
+]
+}
